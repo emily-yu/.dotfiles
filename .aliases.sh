@@ -3,10 +3,6 @@
 #invoke: apiremove filepath/filepath/filepath "message"
 #works for commiting and pushign one file
 
-#change so it iterates over all files and removes, and keeps track of the files it changes to <YOUR-API-KEy>
-#you can then have two options (insert 3rd parameter) - you can git add . everything with 1, or git add singlefile with 2 for single message
-#then iterate over the files that changes with the  ... sed -i -e "s/'<YOUR-API-KEY>'/$temp/g" $1 ... then finish function
-
 
 function apiremove() { #$1 takes first parameter, $2 takes second parameter, etc. 
 	#retrieve variable of apiKey
