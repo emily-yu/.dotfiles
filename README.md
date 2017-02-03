@@ -13,6 +13,7 @@ apiremovefile filename "commit message"
 
 In file example format (OpenWeatherAPI): 
 ```
-var apiKey = "asdf" // replaced with YOUR-API-KEY, script will scan for this line, so embed this variable into GET request
+var apiKey = "asdf" 
 url = URL(string: String("http://api.openweathermap.org/data/2.5/weather?APPID=\(apiKey)&lat=\(123)&lon=\(123)"))
 ```
+"asdf" will be replaced with "<YOUR-API-KEY>". The script will scan for this line, so embed this variable into GET request. 
