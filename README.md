@@ -11,3 +11,8 @@ The following is similar to apiremoveall, but for one file.
 apiremovefile filename "commit message"
 ```
 
+In file example format (OpenWeatherAPI): 
+```
+var apiKey = "asdf" // replaced with YOUR-API-KEY, script will scan for this line, so embed this variable into GET request
+url = URL(string: String("http://api.openweathermap.org/data/2.5/weather?APPID=\(apiKey)&lat=\(123)&lon=\(123)"))
+```
