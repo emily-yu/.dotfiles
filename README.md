@@ -1,6 +1,6 @@
 # API Removal
 
-APIRemover will prevent accidental exposure of API keys on GitHub by removing API keys before committing your changelocs, while allowing your API keys in your local files to remain intact. 
+APIRemover will prevent accidental exposure of API keys on GitHub by removing API keys before committing your changes, while allowing your API keys in your local files to remain intact. 
 
 ### Features:
 ```
