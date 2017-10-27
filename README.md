@@ -32,7 +32,7 @@ Easy logging into MySQL Command Line Client from any location.
 
 or because writing your password on terminal is relatively unsafe, you can just use ```login``` and it will prompt you to enter your password. 
 
-#####Improvements
+##### Improvements
 * finish the unfinished function to log output more easily
 
 ### .debugcleaner.sh
