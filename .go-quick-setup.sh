@@ -5,8 +5,8 @@ function gosetup() {
 	echo -e "export PATH=$PATH:$GOPATH/bin" >> ~/.bash_profile
 	echo -e "export PATH=$PATH:$GOROOT/bin" >> ~/.bash_profile
 
-	mkdir go-directory-test
-	cd go-directory-test
+	mkdir go-directory
+	cd go-directory
 	mkdir bin
 	mkdir src
 	mkdir pkg
