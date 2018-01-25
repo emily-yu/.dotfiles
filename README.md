@@ -48,6 +48,8 @@ This function wipes all debugging statements from your code. But be warned, this
 * git commit code in "cleaned" state, but allow local files to keep debugging statements
 * clear the blank lines produced by the delete
 
+### .gosetup.sh
+This script provides a fast way to set up golang. Simply cd to the directory where you want all your go projects to be container, then run ```gosetup``` in Terminal and enjoy. 
 
 ### INSTALLATION: 
 
