@@ -1,5 +1,12 @@
 # .dotfiles
 
+### relevant items in `.bash_profile`
+    alias pipi="python3 -m pip install "$@" --user" 
+
+The above alias creates workarounds for the following issues: 
+1. Temporarily using Python 2.7 --> Python 3.7, since 2.7 is deprecated. 
+2. Get around permission requirements in Catalina OSX, adding additional flags to all pip installs. 
+    
 ### .apiremove.sh
 .apiremove.sh will prevent accidental exposure of API keys on GitHub by removing API keys before committing your changes, while allowing your API keys in your local files to remain intact.
 
